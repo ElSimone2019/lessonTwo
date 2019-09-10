@@ -15,7 +15,7 @@ int main()
 	while (choice != "stop" || choice != "Stop") {
 
 		//Output for the menu options
-		cout << "What would you like to see?\n*Square\n*Rectangle\n*Horizontal Line\n*Vertical Line\n*Stop Program\n: "
+		cout << "What would you like to see?\n*Square\n*Rectangle\n*Horizontal Line\n*Vertical Line\n*Stop\n: "
 
 		//Input to get the users menu choice
 		cin >> choice;
@@ -24,6 +24,9 @@ int main()
 		//IF Statement to show correct output
 		if (choice == "Square" || choice == "square") {
 			cout << " -----\n|     |\n|     |\n -----\n";
+		}
+		else if (choice == "Rectangle" || choice == "rectangle") {
+
 		}
 	}
 }
